@@ -15,7 +15,9 @@ EVA4 Session 6 assginment
 1.  Accuracy > 99.40 consistently more than 4 instances.
 2.  Model performance is good as difference between train and test is small.
 
+### Plots
 
+![Test Accuracy](images/Baseline_wo_L1_L2_accuracy.png) ![Test Loss](images/Baseline_wo_L1_L2_loss.png)
 
 ## With L1 Regularization
 
