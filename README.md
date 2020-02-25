@@ -49,7 +49,7 @@ EVA4 Session 6 assginment
 
 ### Plots
 
-![Test Accuracy](images/Reg_w_L1_L2_accuracy.png) ![Test Loss](images/Reg_w_L1_L2_loss.png)
+![Test Accuracy](images/Reg_w_L2_accuracy.png) ![Test Loss](images/Reg_w_L2_loss.png)
 
 
 
@@ -68,6 +68,9 @@ EVA4 Session 6 assginment
 1.  Total parameters < 10k
 2.  Data augmentation didn't improve the accuracy.
 
+### Plots
+
+![Test Accuracy](images/Reg_w_L1_L2_accuracy.png) ![Test Loss](images/Reg_w_L1_L2_loss.png)
 
 
 ## Step 5
