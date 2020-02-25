@@ -22,14 +22,12 @@ EVA4 Session 6 assginment
 
 ### Results .  
 
-1.   Parameters: 13,584
-2.   Best results with 0.05 as Dropout value where difference b/w test and train accuracy is small.
-3.   Best Train Accuracy 99.12%
-4.   Best Test Accuracy 99.45%
+1.   Best Train Accuracy 99.42%
+2.   Best Test Accuracy 99.57%
 
 ### Analysis   
 
-1.  Model is under-fitting and total parameters also > 10k.
+1.  L1 Regularization reduces the gap between test and train accuracy.
 
 
 
