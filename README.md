@@ -35,33 +35,28 @@ EVA4 Session 6 assginment
 
 ![Test Accuracy](images/Reg_w_L1_accuracy.png) ![Test Loss](images/Reg_w_L1_loss.png)
 
-## Step 3
+## L2 regularization
 
-### Target . 
 
-1.   Eventhough the model is under-fitting and we need to add more parameters. We need to optimizing of output channels to decrease the parameters < 10 K to meet the requirement.
+### Results  
 
-### Results .  
-
-1.   Parameters: 9,752
-2.   Best Train Accuracy 99.24%
-3.   Best Test Accuracy 99.39%
+1.   Best Train Accuracy 99.59%
+2.   Best Test Accuracy 99.54%
 
 ### Analysis   
 
-1.  Total parameters < 10k
-2.  Model performance is good but not achieving 99.4% accuracy target.
+1.  L2 regularization improves train accuracy and reduce difference with test accuracy. Model performanc is better than L1 regularization.
+
+### Plots
+
+![Test Accuracy](images/Reg_w_L1_L2_accuracy.png) ![Test Loss](images/Reg_w_L1_L2_loss.png)
 
 
 
+## With L1 & L2 regularization
 
-## Step 4
 
-### Target . 
-
-1.   Add image augmentation w random rotation and random affine to improve the model performance.
-
-### Results .  
+### Results  
 
 1.   Parameters: 9,752
 2.   Best Train Accuracy 98.03%
