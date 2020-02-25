@@ -29,7 +29,9 @@ EVA4 Session 6 assginment
 
 1.  L1 Regularization reduces the gap between test and train accuracy.
 
+### Plots
 
+![Test Accuracy](images/Reg_w_L1_L2_accuracy.png)
 
 ## Step 3
 
