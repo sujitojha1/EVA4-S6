@@ -65,15 +65,13 @@ EVA4 Session 6 assginment
 
 ### Results  
 
-1.   Parameters: 9,752
-2.   Best Train Accuracy 98.03%
-3.   Best Test Accuracy 99.26%
+1.   Best Train Accuracy 99.44%
+2.   Best Test Accuracy 99.50%
 
 
 ### Analysis   
 
-1.  Total parameters < 10k
-2.  Data augmentation didn't improve the accuracy.
+1.  Results didn't improve by combining L1 and L2 regularization as compared just using L2 regularization.
 
 ### Plots
 
