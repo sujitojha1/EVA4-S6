@@ -7,12 +7,12 @@ EVA4 Session 6 assginment
 
 ### Results .  
 
-1.   Best Train Accuracy 98.53%
-2.   Best Test Accuracy 98.34%
+1.   Best Train Accuracy 98.41%
+2.   Best Test Accuracy 99.58%
 
 ### Analysis   
 
-1.  Accuracy > 99.40 consistently for 4 instances in 15 epochs.
+1.  Accuracy > 99.40 consistently more than 4 instances.
 2.  Model performance is good as difference between train and test is small.
 
 
