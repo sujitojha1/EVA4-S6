@@ -2,31 +2,23 @@
 EVA4 Session 6 assginment
 
 
-## Step 1
+## Baseline without L1 and L2 regularization
 
-### Target . 
-
-1.   Set up and defining skeleton with Convolution block, GAP and Convolution block.
 
 ### Results .  
 
-1.   Parameters: 13,584
-2.   Best Train Accuracy 98.53%
-3.   Best Test Accuracy 98.34%
+1.   Best Train Accuracy 98.53%
+2.   Best Test Accuracy 98.34%
 
 ### Analysis   
 
-1.   Basic skeleton model doesn't meet target accuracy of 99.4% and model is slightly over-fitting.
-2.   Parameters count is >10k
+1.  Accuracy > 99.40 consistently for 4 instances in 15 epochs.
+2.  Model performance is good as difference between train and test is small.
 
 
 
-## Step 2
+## With L1 Regularization
 
-### Target . 
-
-1.   Adding batch-norm and drop-out to reduce over-fitting and improve the model efficiency.
-2.   Iterate to find the best drop-out value (0.05 to 0.2)
 
 ### Results .  
 
