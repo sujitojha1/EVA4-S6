@@ -35,6 +35,10 @@ EVA4 Session 6 assginment
 
 ![Test Accuracy](images/Reg_w_L1_accuracy.png) ![Test Loss](images/Reg_w_L1_loss.png)
 
+### Mislabeled plots (25 images)
+
+![Mislabeled images](images/Reg_w_L1_misclassified_images.png)
+
 ## L2 regularization
 
 
@@ -51,6 +55,9 @@ EVA4 Session 6 assginment
 
 ![Test Accuracy](images/Reg_w_L2_accuracy.png) ![Test Loss](images/Reg_w_L2_loss.png)
 
+### Mislabeled plots (25 images)
+
+![Mislabeled images](images/Reg_w_L2_misclassified_images.png)
 
 
 ## With L1 & L2 regularization
@@ -73,24 +80,4 @@ EVA4 Session 6 assginment
 ![Test Accuracy](images/Reg_w_L1_L2_accuracy.png) ![Test Loss](images/Reg_w_L1_L2_loss.png)
 
 
-## Step 5
-
-### Target . 
-
-1.   Adding LR Scheduler 
-2.   Iterated on learning rate (0.01, 0.02)
-3.   Iterated on removing batch-norm and drop-out in initial layer of convolution.
-
-### Results .  
-
-1.   Parameters: 9,712
-2.   Best Train Accuracy 99.22%
-3.   Best Test Accuracy 99.48%
-
-
-### Analysis   
-
-1.  Total parameters < 10k
-2.  Accuracy > 99.40 consistently for 4 instances in 15 epochs.
-3.  Model performance is good as difference between train and test is small.
 
