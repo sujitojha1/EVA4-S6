@@ -31,7 +31,7 @@ EVA4 Session 6 assginment
 
 ### Plots
 
-![Test Accuracy](images/Reg_w_L1_L2_accuracy.png)
+![Test Accuracy](images/Reg_w_L1_accuracy.png) ![Test Loss](images/Reg_w_L1_loss.png)
 
 ## Step 3
 
